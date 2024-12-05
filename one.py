@@ -13,7 +13,7 @@ color = st.selectbox("Rangni tanlang: ", ['Blue', 'Silver', 'Green', 'Black'])
 mileage = st.number_input("Yurgan masofani kiriting (km): ", min_value=0)
 
 # Modelni yuklash
-with open('/home/shohruh/Tolibjon/avtomobil.pkl', 'rb') as file:
+with open('avtomobil.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Bashorat qilishni amalga oshirish
